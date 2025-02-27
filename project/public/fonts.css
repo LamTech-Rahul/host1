@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Mokoto Glitch1';
+  src: url('https://fonts.cdnfonts.com/css/mokoto-glitch') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('https://fonts.cdnfonts.com/css/glacial-indifference-2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

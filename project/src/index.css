@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Patent document animation */
+.patent-line {
+  animation: pulse 3s infinite alternate;
+}
+
+.patent-line-slow {
+  animation: pulse 5s infinite alternate;
+}
+
+.patent-node {
+  animation: glow 4s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 2px rgba(217, 119, 6, 0.3);
+    opacity: 0.3;
+  }
+  100% {
+    box-shadow: 0 0 8px rgba(217, 119, 6, 0.6);
+    opacity: 0.6;
+  }
+}
